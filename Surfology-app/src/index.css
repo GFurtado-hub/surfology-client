@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Prata&display=swap');
+
 @import "tailwindcss";
 
 a.active hr {
     display: block;
 }
+
+
+*{
+    font-family: Surfer;
+}
+
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
