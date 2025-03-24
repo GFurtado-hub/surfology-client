@@ -13,6 +13,11 @@ import Pukas from './Pukas-Highline.jpg';
 import QuicksilverCarver from './Quiksilver Carver.jpg';
 import RustyBird from './Rusty Blackbird.jpg';
 import TakayamaPink from './Takayama In the Pink.jpg';
+import SearchIcon from './Search-icon.jpg';
+import ProfileIcon from './Profile-icon.jpg';
+import CartIcon from './Cart-icon.jpg';
+import MainImage from './Main-image.jpg';
+
 
 export const assets = {
     AlMerrick,
@@ -29,5 +34,9 @@ export const assets = {
     Pukas,
     QuicksilverCarver,
     RustyBird,
-    TakayamaPink
+    TakayamaPink,
+    SearchIcon,
+    ProfileIcon,
+    CartIcon,
+    MainImage
   };
