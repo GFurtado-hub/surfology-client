@@ -10,16 +10,14 @@ import WeatherApi from "./pages/WeatherAPI";
 import Login from "./pages/Login";
 import Order from "./pages/Order";
 import Navbar from './components/Navbar';
-import Main from './components/Main';
+
 
 
 const App = () => {
   return (
     <div className= 'px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
     <Navbar />
-    <Main />
       
-
       <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/about" element={<About />} />

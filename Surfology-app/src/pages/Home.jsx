@@ -1,10 +1,13 @@
 import React from 'react';
-import Main from '../components/Main';
+import Hero from '../components/Hero.jsx';
+import Bestsellers from '../components/bestsellers.jsx';
+
 
 const Home = () => {
   return (
     <div>
-      <Main />
+      <Hero />
+      <Bestsellers />
     </div>
   )
 }
