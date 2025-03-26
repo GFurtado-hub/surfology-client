@@ -3,12 +3,15 @@ import { products } from "../assets/assets";
 
 export const ShopContext = createContext(); 
 
-const ShopContextProvider = ({ children }) => {
-    const value = { products };
+const ShopContextProvider = (props) => {
+
+    const currency = '€';
+
+    const value = { products, currency};
 
     return (
         <ShopContext.Provider value={value}>
-            {children}
+            {props.children}
         </ShopContext.Provider>
     );
 };

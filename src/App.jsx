@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Collection from "./pages/Collection";
+import Surfboards from "./pages/Surfboards";
 import Products from "./pages/Products";
 import PlaceOrder from './pages/placeOrder';
 import Cart from "./pages/Cart";
@@ -21,7 +21,7 @@ const App = () => {
       <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/about" element={<About />} />
-         <Route path="/collection" element={<Collection />} />
+         <Route path="/surfboards" element={<Surfboards />} />
          <Route path="/Products" element={<Products />} />
          <Route path="/place-order" element={<PlaceOrder />} />
          <Route path="/Cart" element={<Cart />} />

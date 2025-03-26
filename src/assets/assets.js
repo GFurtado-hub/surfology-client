@@ -108,15 +108,6 @@ export const products = [
     image: [assets.HobieBuck]
   },
   {
-    _id: "67e268b53b5a3d75fb3edd08",
-    name: "Logo",
-    description: "All-rounder board with excellent performance",
-    price: 650,
-    stock: 14,
-    category: "shortboard",
-    image: [assets.Logo]
-  },
-  {
     _id: "67e268c83b5a3d75fb3edd09",
     name: "LostPuddle",
     description: "Compact board designed for small waves",

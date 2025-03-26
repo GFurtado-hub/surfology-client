@@ -1,13 +1,13 @@
 import React from 'react';
 import Hero from '../components/Hero.jsx';
-import Bestsellers from '../components/bestsellers.jsx';
+import LatestArrivals from '../components/LatestArrivals.jsx';
 
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <Bestsellers />
+      <LatestArrivals />
     </div>
   )
 }
