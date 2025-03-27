@@ -17,9 +17,25 @@ const Surfboards = () => {
     }
   }
 
+  const applyFilter = () => {
+
+    let productsCopy = products.slice();
+
+    if(category.length > 0) {
+      productsCopy = productsCopy.filter(item => category.includes(item.category.toLowerCase()));
+
+    }
+
+    setFilterProducts(productsCopy);
+  } 
+
   useEffect(() => {
     setFilterProducts(products);
   }, [products]); 
+
+  useEffect(() => {
+    applyFilter();
+  }, [category]);
 
   return (
     <div className="flex flex-col pt-10 border-t px-10">
@@ -37,13 +53,22 @@ const Surfboards = () => {
             <p className="text-sm font-medium mb-2">CATEGORIES</p>
             <div className="flex flex-col gap-2 text-sm text-gray-700">
               <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="longboards" onChange={toggleCategory} /> Longboards
+                <input type="checkbox" className="w-4 h-4" value="longboard" onChange={toggleCategory} /> Longboards
               </label>
               <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="shortboards" onChange={toggleCategory} /> Shortboards
+                <input type="checkbox" className="w-4 h-4" value="shortboard" onChange={toggleCategory} /> Shortboards
               </label>
               <label className="flex items-center gap-2">
                 <input type="checkbox" className="w-4 h-4" value="fish" onChange={toggleCategory} /> Fish
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="checkbox" className="w-4 h-4" value="hybrid" onChange={toggleCategory} /> Hybrid
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="checkbox" className="w-4 h-4" value="funboard" onChange={toggleCategory} /> Funboards
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="checkbox" className="w-4 h-4" value="gun" onChange={toggleCategory} /> Gun
               </label>
             </div>
           </div>

@@ -11,7 +11,7 @@ const LatestArrivals = () => {
      setLatestProducts(products.slice(0,10));
     },[products])
 
-    console.log(products);
+    
 
     return (
         <div className='my-10'>
@@ -22,7 +22,7 @@ const LatestArrivals = () => {
                 </p>
             </div>
 
-            <div className='grid lg:grid-cols-5'>
+            <div className='grid lg:grid-cols-5 gap-4'>
                 {
                     latestProducts.map((item,index) => (
                 <ProductItem key={index} id={item._id} image={item.image} name={item.name} price={item.price} />

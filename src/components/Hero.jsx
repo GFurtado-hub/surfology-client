@@ -4,7 +4,7 @@ import { assets } from '../assets/assets';
 const Hero = () => {
   return (
     <div className="flex flex-col sm:flex-row border border-gray-400">
-      {/* Left Side - Content */}
+      
       <div className="w-full sm:w-1/2 flex flex-col items-start justify-center px-10 py-10 sm:py-0">
         <div className="text-[#414141]">
           <div className="flex items-center gap-2">
@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Side - Image */}
+     
       <div className="w-full sm:w-1/2">
         <img className="w-full h-full object-cover" src={assets.HeroImage} alt="main-image" />
       </div>
