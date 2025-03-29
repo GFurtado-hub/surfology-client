@@ -31,6 +31,7 @@ import TCsurfDesigns from './T&CSurfDesigns.jpg';
 import ChannelIslandsNeckBeard2 from './ChannelIslandsNeckBeard2.jpg';
 import LibTechPuddleJumper from './LibTechPuddleJumper.jpg';
 
+
 export const assets = {
     AlMerrick,
     BicSport,
@@ -64,14 +65,12 @@ export const assets = {
     TCsurfDesigns,
     ChannelIslandsNeckBeard2,
     LibTechPuddleJumper
-
   };
-
 
   
 export const products = [
   {
-    _id: "67e268053b5a3d75fb3edd01",
+    _id: "67e5aa6506caa05c25ca8e30",
     name: "AlMerrick",
     description: "High-performance shortboard",
     price: 700,
@@ -80,7 +79,7 @@ export const products = [
     image: [assets.AlMerrick]
   },
   {
-    _id: "67e2681a3b5a3d75fb3edd02",
+    _id: "67e5aa7a06caa05c25ca8e32",
     name: "BicSport",
     description: "Durable and beginner-friendly board",
     price: 450,
@@ -89,7 +88,7 @@ export const products = [
     image: [assets.BicSport]
   },
   {
-    _id: "67e268453b5a3d75fb3edd03",
+    _id: "67e5aa9806caa05c25ca8e34",
     name: "ChannelIslands",
     description: "Pro-level surfboard for advanced riders",
     price: 750,
@@ -98,7 +97,7 @@ export const products = [
     image: [assets.ChannelIslands]
   },
   {
-    _id: "67e268653b5a3d75fb3edd04",
+    _id: "67e5aaaa06caa05c25ca8e36",
     name: "FireWire",
     description: "Eco-friendly performance surfboard",
     price: 800,
@@ -107,7 +106,7 @@ export const products = [
     image: [assets.FireWire]
   },
   {
-    _id: "67e268803b5a3d75fb3edd05",
+    _id: "67e5aabd06caa05c25ca8e38",
     name: "FisherV2",
     description: "Versatile fish surfboard for all conditions",
     price: 600,
@@ -116,7 +115,7 @@ export const products = [
     image: [assets.FisherV2]
   },
   {
-    _id: "67e268953b5a3d75fb3edd06",
+    _id: "67e5aad006caa05c25ca8e3a",
     name: "HaydenShapes",
     description: "Innovative epoxy board with great maneuverability",
     price: 780,
@@ -125,7 +124,7 @@ export const products = [
     image: [assets.HaydenShapes]
   },
   {
-    _id: "67e268a83b5a3d75fb3edd07",
+    _id: "67e5aaeb06caa05c25ca8e3c",
     name: "HobieBuck",
     description: "Classic longboard for smooth rides",
     price: 900,
@@ -134,7 +133,7 @@ export const products = [
     image: [assets.HobieBuck]
   },
   {
-    _id: "67e268c83b5a3d75fb3edd09",
+    _id: "67e5aafc06caa05c25ca8e3e",
     name: "LostPuddle",
     description: "Compact board designed for small waves",
     price: 680,
@@ -143,7 +142,7 @@ export const products = [
     image: [assets.LostPuddle]
   },
   {
-    _id: "67e268d53b5a3d75fb3edd0a",
+    _id: "67e5ab1206caa05c25ca8e40",
     name: "LostRocket",
     description: "High-speed board with great paddling ability",
     price: 720,
@@ -152,7 +151,7 @@ export const products = [
     image: [assets.LostRocket]
   },
   {
-    _id: "67e268e83b5a3d75fb3edd0b",
+    _id: "67e5ab3906caa05c25ca8e42",
     name: "McTavish",
     description: "Premium handcrafted longboard",
     price: 950,
@@ -161,7 +160,7 @@ export const products = [
     image: [assets.McTavish]
   },
   {
-    _id: "67e268f53b5a3d75fb3edd0c",
+    _id: "67e5ab4b06caa05c25ca8e44",
     name: "Pukas",
     description: "High-performance European surfboard",
     price: 740,
@@ -170,7 +169,7 @@ export const products = [
     image: [assets.Pukas]
   },
   {
-    _id: "67e269083b5a3d75fb3edd0d",
+    _id: "67e5ab5c06caa05c25ca8e46",
     name: "QuicksilverCarver",
     description: "Versatile board with great carving ability",
     price: 680,
@@ -196,8 +195,8 @@ export const products = [
     category: "longboard",
     image: [assets.TakayamaPink]
   },
-  {  
-    _id: "67e51a8392434914695fda48",
+  {
+    _id: "67e59ec5b05729f9a957824a",
     name: "JSMonstaBox",
     description: "All-around shortboard for various wave conditions",
     price: 720,
@@ -205,8 +204,8 @@ export const products = [
     category: "shortboard",
     image: [assets.JSMonstaBox]
   },
-  { 
-    _id: "67e51a9b92434914695fda4a",
+  {
+    _id: "67e59f25b05729f9a957824c",
     name: "DHDPhoenix",
     description: "Fast and responsive shortboard with extra volume",
     price: 750,
@@ -214,8 +213,8 @@ export const products = [
     category: "shortboard",
     image: [assets.DHDPhoenix]
   },
-  { 
-    _id: "67e51aa892434914695fda4c",
+  {
+    _id: "67e59f4fb05729f9a957824e",
     name: "TomoEvo",
     description: "Compact and wide surfboard for progressive surfing",
     price: 770,
@@ -223,8 +222,8 @@ export const products = [
     category: "shortboard",
     image: [assets.TomoEvo]
   },
-  { 
-    _id: "67e51aba92434914695fda4e",
+  {
+    _id: "67e5a02606caa05c25ca8dfc",
     name: "MickFanningBeastie",
     description: "User-friendly soft-top board designed for fun waves",
     price: 480,
@@ -232,8 +231,8 @@ export const products = [
     category: "funboard",
     image: [assets.MickFanningBeastie]
   },
-  { 
-    _id: "67e51acd92434914695fda50",
+  {
+    _id: "67e5a04d06caa05c25ca8dfe",
     name: "NSPProtech",
     description: "Durable and lightweight longboard for easy paddling",
     price: 890,
@@ -241,8 +240,8 @@ export const products = [
     category: "longboard",
     image: [assets.NSPProtech]
   },
-  { 
-    _id: "67e51ada92434914695fda52",
+  {
+    _id: "67e5a08006caa05c25ca8e00",
     name: "SoftechFlash",
     description: "Softboard with a high-performance feel",
     price: 410,
@@ -250,8 +249,8 @@ export const products = [
     category: "funboard",
     image: [assets.SoftechFlash]
   },
-  { 
-    _id: "67e51ae692434914695fda54",
+  {
+    _id: "67e5a0b206caa05c25ca8e02",
     name: "CIHappy",
     description: "Versatile shortboard with a modern outline",
     price: 780,
@@ -259,8 +258,8 @@ export const products = [
     category: "shortboard",
     image: [assets.CIHappy]
   },
-  { 
-    _id: "67e51af392434914695fda56",
+  {
+    _id: "67e5a10406caa05c25ca8e04",
     name: "AlbumTwinsman",
     description: "Twin-fin hybrid board with a modern touch",
     price: 810,
@@ -268,8 +267,8 @@ export const products = [
     category: "fish",
     image: [assets.AlbumTwinsman]
   },
-  { 
-    _id: "67e51aff92434914695fda58",
+  {
+    _id: "67e5a12206caa05c25ca8e06",
     name: "PyzelPhantom",
     description: "Refined shortboard built for high-performance surfing",
     price: 770,
@@ -277,8 +276,8 @@ export const products = [
     category: "shortboard",
     image: [assets.PyzelPhantom]
   },
-  { 
-    _id: "67e51b0a92434914695fda5a",
+  {
+    _id: "67e5a13b06caa05c25ca8e08",
     name: "LostRNF96",
     description: "Classic reissue of the original fish surfboard",
     price: 760,
@@ -286,8 +285,8 @@ export const products = [
     category: "fish",
     image: [assets.LostRNF96]
   },
-  { 
-    _id: "67e51b1992434914695fda5c",
+  {
+    _id: "67e5a15806caa05c25ca8e0a",
     name: "T&CSurfDesigns",
     description: "Hawaiian-style longboard for traditional surfing",
     price: 940,
@@ -295,8 +294,8 @@ export const products = [
     category: "longboard",
     image: [assets.TCsurfDesigns]
   },
-  { 
-    _id: "67e51b2892434914695fda5e",
+  {
+    _id: "67e5a18406caa05c25ca8e0c",
     name: "ChannelIslandsNeckBeard2",
     description: "Shortboard with extra width for better stability",
     price: 740,
@@ -304,8 +303,8 @@ export const products = [
     category: "shortboard",
     image: [assets.ChannelIslandsNeckBeard2]
   },
-  { 
-    _id: "67e51b3392434914695fda60",
+  {
+    _id: "67e5a1a206caa05c25ca8e0e",
     name: "LibTechPuddleJumper",
     description: "Eco-friendly surfboard designed for small waves",
     price: 700,
