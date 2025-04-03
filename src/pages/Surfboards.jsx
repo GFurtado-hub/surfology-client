@@ -4,7 +4,7 @@ import Title from '../components/title';
 import ProductItem from '../components/ProductItem';
 
 const Surfboards = () => {
-  const { products } = useContext(ShopContext);
+  const { products, search, showSearch } = useContext(ShopContext);
   const [filterProducts, setFilterProducts] = useState(products);
   const [category,setCategory] = useState([]);
 
@@ -21,6 +21,10 @@ const Surfboards = () => {
 
     let productsCopy = products.slice();
 
+    if(showSearch && search) {
+      productsCopy = productsCopy.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
+    }
+
     if(category.length > 0) {
       productsCopy = productsCopy.filter(item => category.includes(item.category.toLowerCase()));
 
@@ -35,7 +39,7 @@ const Surfboards = () => {
 
   useEffect(() => {
     applyFilter();
-  }, [category]);
+  }, [category, search, showSearch]);
 
   return (
     <div className="flex flex-col pt-10 border-t px-10">
@@ -78,7 +82,7 @@ const Surfboards = () => {
         <div className="flex-1">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {filterProducts.map((item, index) => (
-              <ProductItem key={index} name={item.name} id={item.id} price={item.price} image={item.image} />
+              <ProductItem key={index} name={item.name} id={item._id} price={item.price} image={item.image} />
             ))}
           </div>
         </div>
