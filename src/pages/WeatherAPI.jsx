@@ -62,22 +62,23 @@ const WeatherAPI = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
-
+ 
   return (
-    <div>
-      <h1>Weather Data</h1>
-      <p>Time: {weatherData.current.time.toString()}</p>
-      <p>Wave Height: {weatherData.current.waveHeight} m</p>
-      <p>Wave Direction: {weatherData.current.waveDirection}°</p>
-      <p>Ocean Current Velocity: {weatherData.current.oceanCurrentVelocity} m/s</p>
-      <p>Sea Level Height (MSL): {weatherData.current.seaLevelHeightMsl} m</p>
-      <p>Ocean Current Direction: {weatherData.current.oceanCurrentDirection}°</p>
-      <p>Wind Wave Direction: {weatherData.current.windWaveDirection}°</p>
-      <p>Wind Wave Height: {weatherData.current.windWaveHeight} m</p>
-      <p>Swell Wave Height: {weatherData.current.swellWaveHeight} m</p>
-      <p>Swell Wave Direction: {weatherData.current.swellWaveDirection}°</p>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-white shadow-lg rounded-lg p-6 text-center">
+        <h1 className="text-2xl font-bold mb-4">Weather Data</h1>
+        <p>Time: {weatherData.current.time.toString()}</p>
+        <p>Wave Height: {weatherData.current.waveHeight} m</p>
+        <p>Wave Direction: {weatherData.current.waveDirection}°</p>
+        <p>Ocean Current Velocity: {weatherData.current.oceanCurrentVelocity} m/s</p>
+        <p>Sea Level Height (MSL): {weatherData.current.seaLevelHeightMsl} m</p>
+        <p>Ocean Current Direction: {weatherData.current.oceanCurrentDirection}°</p>
+        <p>Wind Wave Direction: {weatherData.current.windWaveDirection}°</p>
+        <p>Wind Wave Height: {weatherData.current.windWaveHeight} m</p>
+        <p>Swell Wave Height: {weatherData.current.swellWaveHeight} m</p>
+        <p>Swell Wave Direction: {weatherData.current.swellWaveDirection}°</p>
+      </div>
     </div>
   );
-};
-
+}
 export default WeatherAPI;

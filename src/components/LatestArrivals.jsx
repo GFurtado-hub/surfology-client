@@ -35,5 +35,3 @@ const LatestArrivals = () => {
 };
 
 export default LatestArrivals;
-
-   
