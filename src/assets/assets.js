@@ -72,7 +72,7 @@ export const products = [
   {
     _id: "67e5aa6506caa05c25ca8e30",
     name: "AlMerrick",
-    description: "High-performance shortboard",
+    description: "A high-performance shortboard designed for experienced surfers looking for speed, maneuverability, and responsiveness on waves. Al Merrick's reputation for crafting boards that handle all types of surf is well known, and this model is no exception. Featuring a sleek, responsive design, it provides superior control and precision on critical sections of the wave. Whether you're hitting barrels or going for aerial maneuvers, this shortboard delivers exceptional performance for those pushing the limits of their surfing.",
     price: 700,
     stock: 10,
     category: "shortboard",
@@ -81,7 +81,7 @@ export const products = [
   {
     _id: "67e5aa7a06caa05c25ca8e32",
     name: "BicSport",
-    description: "Durable and beginner-friendly board",
+    description: "Known for its durability and beginner-friendly design, the BicSport longboard is perfect for those just starting out in the sport. This board offers excellent stability, smooth rides, and great paddling ability, making it easier for new surfers to catch waves and learn the basics. Built to last and resistant to dings and cracks, it's a solid choice for those looking for a board that provides a gentle introduction to surfing without sacrificing quality or performance.",
     price: 450,
     stock: 15,
     category: "longboard",
@@ -90,7 +90,7 @@ export const products = [
   {
     _id: "67e5aa9806caa05c25ca8e34",
     name: "ChannelIslands",
-    description: "Pro-level surfboard for advanced riders",
+    description: "Built for advanced surfers, the Channel Islands shortboard is engineered to excel in fast, powerful waves. With its pro-level design, it boasts a high level of responsiveness and control, allowing experienced surfers to perform complex maneuvers and cutbacks with ease. Crafted with precision and the latest surfboard technology, the Channel Islands board is a go-to choice for competitive surfers and those who demand the utmost performance on every wave.",
     price: 750,
     stock: 8,
     category: "shortboard",
@@ -99,7 +99,7 @@ export const products = [
   {
     _id: "67e5aaaa06caa05c25ca8e36",
     name: "FireWire",
-    description: "Eco-friendly performance surfboard",
+    description: "A sustainable choice for eco-conscious surfers, the FireWire longboard combines top-tier performance with environmental responsibility. Made with eco-friendly materials and technologies, this board is perfect for those who want to enjoy a smooth, high-performance ride while minimizing their environmental impact. Its design ensures easy paddling, stability, and smooth carving, making it an ideal choice for both beginners and advanced longboarders alike.",
     price: 800,
     stock: 12,
     category: "longboard",
@@ -108,7 +108,7 @@ export const products = [
   {
     _id: "67e5aabd06caa05c25ca8e38",
     name: "FisherV2",
-    description: "Versatile fish surfboard for all conditions",
+    description: "The Fisher V2 is a versatile fish surfboard built for all types of conditions. With a wider outline and more volume in the nose, it provides stability while still being able to handle high-speed turns and quick maneuvers. Ideal for small to medium waves, this board shines in various surf conditions, offering a mix of performance, fun, and ease of use for surfers of all skill levels. Whether you’re a seasoned pro or a casual surfer, the Fisher V2 makes every session enjoyable.",
     price: 600,
     stock: 9,
     category: "fish",
@@ -117,7 +117,7 @@ export const products = [
   {
     _id: "67e5aad006caa05c25ca8e3a",
     name: "HaydenShapes",
-    description: "Innovative epoxy board with great maneuverability",
+    description: "With cutting-edge design and construction, the HaydenShapes shortboard is a performance-focused board that offers fantastic maneuverability and speed. Its innovative epoxy construction provides durability while ensuring a lightweight feel. This board’s unique design enables exceptional control in critical parts of the wave, making it ideal for aggressive surfers who want to push the limits of their performance.",
     price: 780,
     stock: 10,
     category: "shortboard",
@@ -126,7 +126,7 @@ export const products = [
   {
     _id: "67e5aaeb06caa05c25ca8e3c",
     name: "HobieBuck",
-    description: "Classic longboard for smooth rides",
+    description: "The Hobie Buck longboard is a classic choice for surfers who enjoy smooth, easy rides and an elegant design. With a traditional outline and great paddling ability, it offers stability and performance in a variety of conditions. Whether you’re cruising down the line or nose-riding, this board delivers a smooth, enjoyable experience. Built for long-lasting durability, it’s an excellent choice for those looking to experience a timeless design with modern construction techniques.",
     price: 900,
     stock: 7,
     category: "longboard",
@@ -135,7 +135,7 @@ export const products = [
   {
     _id: "67e5aafc06caa05c25ca8e3e",
     name: "LostPuddle",
-    description: "Compact board designed for small waves",
+    description: "The Lost Puddle is a compact shortboard designed specifically for small waves. Its low-volume design and snappy response make it perfect for maneuvering in tight spaces and small surf. It’s designed to maximize speed and performance on smaller waves, offering a fun and responsive ride. Whether you’re an intermediate surfer or an experienced rider looking for something for low-wave conditions, this board will bring out the best in smaller waves.",
     price: 680,
     stock: 11,
     category: "shortboard",
@@ -144,7 +144,7 @@ export const products = [
   {
     _id: "67e5ab1206caa05c25ca8e40",
     name: "LostRocket",
-    description: "High-speed board with great paddling ability",
+    description: "The Lost Rocket is designed for high-speed surfing with great paddling ability. It’s built for fast and powerful waves, allowing you to maintain speed and control in even the most challenging conditions. Its progressive design allows for easy transitions from take-off to high-speed carving, making it perfect for surfers looking for an adrenaline rush and maximum performance. It’s the ultimate board for aggressive riders and those who want to ride the wave with speed and style.",
     price: 720,
     stock: 8,
     category: "shortboard",
@@ -153,7 +153,7 @@ export const products = [
   {
     _id: "67e5ab3906caa05c25ca8e42",
     name: "McTavish",
-    description: "Premium handcrafted longboard",
+    description: "The McTavish longboard is a premium handcrafted board that embodies timeless craftsmanship and performance. Designed for traditional longboarding, it excels in smooth rides, carving, and nose-riding. Its high-quality construction ensures durability while delivering excellent performance in various surf conditions. The McTavish longboard is ideal for surfers who appreciate the artistry of handmade boards while seeking a reliable, high-performance ride that can take them from mellow waves to more dynamic surf.",
     price: 950,
     stock: 5,
     category: "longboard",
@@ -162,7 +162,7 @@ export const products = [
   {
     _id: "67e5ab4b06caa05c25ca8e44",
     name: "Pukas",
-    description: "High-performance European surfboard",
+    description: "The Pukas shortboard is a high-performance European surfboard crafted for advanced riders. Its responsive design provides exceptional maneuverability, allowing surfers to attack critical wave sections and perform high-speed turns with precision. Built for performance in challenging surf conditions, this board combines speed, control, and durability, making it a great choice for competitive surfers and those looking to take their surfing to the next level.",
     price: 740,
     stock: 10,
     category: "shortboard",
@@ -171,7 +171,7 @@ export const products = [
   {
     _id: "67e5ab5c06caa05c25ca8e46",
     name: "QuicksilverCarver",
-    description: "Versatile board with great carving ability",
+    description: "The Quicksilver Carver is a versatile funboard designed to offer excellent carving ability and stability in a variety of conditions. Whether you're a beginner learning the ropes or an intermediate surfer looking for a fun, easy ride, this board provides a smooth and responsive performance on both small and medium-sized waves. Its design emphasizes control, making it a great choice for surfers who want a board that combines maneuverability with ease of use.",
     price: 680,
     stock: 12,
     category: "funboard",
@@ -180,7 +180,7 @@ export const products = [
   {
     _id: "67e269153b5a3d75fb3edd0e",
     name: "RustyBird",
-    description: "Aggressive shortboard for advanced surfers",
+    description: "The Rusty Bird is an aggressive shortboard designed for advanced surfers who want to push the limits in powerful surf. With a sharp, responsive design, this board excels at high-speed maneuvers and dynamic turns. Built for performance in critical sections of the wave, it’s perfect for surfers who want to take on bigger waves and perform aerial tricks, cutbacks, and barrels. The Rusty Bird delivers high-end performance for experienced surfers looking to maximize their potential.",
     price: 730,
     stock: 9,
     category: "shortboard",
@@ -189,7 +189,7 @@ export const products = [
   {
     _id: "67e269283b5a3d75fb3edd0f",
     name: "TakayamaPink",
-    description: "Elegant and stylish longboard",
+    description: "The Takayama Pink is an elegant longboard designed for smooth, stylish rides and classic nose-riding. Its traditional shape offers exceptional stability, easy paddling, and great control, making it ideal for beginners and experienced riders alike. This board delivers a comfortable ride with a focus on style and grace. Whether you're carving down the face of a wave or walking the nose, the Takayama Pink will have you gliding effortlessly across the water.",
     price: 980,
     stock: 6,
     category: "longboard",
@@ -198,7 +198,7 @@ export const products = [
   {
     _id: "67e59ec5b05729f9a957824a",
     name: "JSMonstaBox",
-    description: "All-around shortboard for various wave conditions",
+    description: "The JS Monsta Box is an all-around shortboard that excels in a wide variety of wave conditions. With a blend of speed, control, and versatility, it allows surfers to perform aggressive turns and high-speed maneuvers while maintaining stability. This board is engineered for riders who want a dependable, high-performance shortboard that can handle everything from small beach breaks to powerful, fast waves.",
     price: 720,
     stock: 10,
     category: "shortboard",
@@ -207,7 +207,7 @@ export const products = [
   {
     _id: "67e59f25b05729f9a957824c",
     name: "DHDPhoenix",
-    description: "Fast and responsive shortboard with extra volume",
+    description: "The DHD Phoenix is a fast and responsive shortboard designed with extra volume for enhanced paddling and wave-catching ability. Its sleek design allows for quick acceleration and smooth transitions between maneuvers, making it perfect for aggressive surfing. The Phoenix is a go-to choice for surfers looking for speed, power, and precision, with the added benefit of additional volume for easy paddling in challenging conditions.",
     price: 750,
     stock: 9,
     category: "shortboard",
@@ -216,7 +216,7 @@ export const products = [
   {
     _id: "67e59f4fb05729f9a957824e",
     name: "TomoEvo",
-    description: "Compact and wide surfboard for progressive surfing",
+    description: "The Tomo Evo is a compact, wide surfboard designed for progressive surfing. Its design offers incredible maneuverability and control, allowing for radical turns and aerial tricks. Ideal for advanced surfers who want to take their surfing to the next level, the Evo combines high-performance technology with a modern, cutting-edge shape that provides unparalleled speed and response.",
     price: 770,
     stock: 11,
     category: "shortboard",
@@ -225,7 +225,7 @@ export const products = [
   {
     _id: "67e5a02606caa05c25ca8dfc",
     name: "MickFanningBeastie",
-    description: "User-friendly soft-top board designed for fun waves",
+    description: "The Mick Fanning Beastie is a user-friendly soft-top board designed for fun waves and a relaxed surf experience. With its forgiving design, it’s ideal for beginners or surfers looking for a low-maintenance board that still delivers great performance. Its soft-top construction provides safety and comfort, while still maintaining the ability to perform well in various conditions.",
     price: 480,
     stock: 15,
     category: "funboard",
@@ -234,7 +234,7 @@ export const products = [
   {
     _id: "67e5a04d06caa05c25ca8dfe",
     name: "NSPProtech",
-    description: "Durable and lightweight longboard for easy paddling",
+    description: "The NSP Protech longboard offers the perfect combination of durability, performance, and easy paddling. Designed with a lightweight core and reinforced with durable materials, it’s ideal for surfers who want a reliable and long-lasting board for cruising and carving. This board delivers excellent stability in various surf conditions, from small waves to larger, more powerful breaks.",
     price: 890,
     stock: 7,
     category: "longboard",
@@ -243,7 +243,7 @@ export const products = [
   {
     _id: "67e5a08006caa05c25ca8e00",
     name: "SoftechFlash",
-    description: "Softboard with a high-performance feel",
+    description: "The Softech Flash is a softboard that offers a high-performance feel with easy handling. Designed for beginners and intermediate surfers, it provides exceptional control and stability while remaining forgiving. Its unique soft-top construction ensures comfort while delivering smooth, responsive rides, making it perfect for surfers learning the ropes or those looking for a fun, user-friendly board.",
     price: 410,
     stock: 20,
     category: "funboard",
@@ -252,7 +252,7 @@ export const products = [
   {
     _id: "67e5a0b206caa05c25ca8e02",
     name: "CIHappy",
-    description: "Versatile shortboard with a modern outline",
+    description: "The CI Happy is a versatile shortboard that combines a modern outline with a balanced design for a responsive and dynamic surfing experience. Its advanced construction allows for high-speed maneuvers, while the board’s design ensures solid stability in various wave conditions. Perfect for surfers looking for a responsive board that delivers performance without sacrificing ease of use.",
     price: 780,
     stock: 10,
     category: "shortboard",
@@ -261,7 +261,7 @@ export const products = [
   {
     _id: "67e5a10406caa05c25ca8e04",
     name: "AlbumTwinsman",
-    description: "Twin-fin hybrid board with a modern touch",
+    description: "The Album Twinsman is a twin-fin hybrid board with a modern touch, perfect for those who love quick turns and maximum maneuverability. Its design allows for fast acceleration and snappy performance, making it ideal for surfers who enjoy carving and playful surfing. With its unique hybrid design, this board excels in a variety of conditions, from small surf to more challenging waves.",
     price: 810,
     stock: 6,
     category: "fish",
@@ -270,7 +270,7 @@ export const products = [
   {
     _id: "67e5a12206caa05c25ca8e06",
     name: "PyzelPhantom",
-    description: "Refined shortboard built for high-performance surfing",
+    description: "The Pyzel Phantom is a refined shortboard built for high-performance surfing. Designed for experienced riders, it offers an ideal balance of speed, control, and responsiveness. Whether you're looking for explosive turns, tight arcs, or high-speed maneuvers, this board delivers exceptional performance in powerful conditions. Its finely tuned design ensures it handles every wave with ease, making it a favorite for top-level surfers.",
     price: 770,
     stock: 9,
     category: "shortboard",
@@ -279,7 +279,7 @@ export const products = [
   {
     _id: "67e5a13b06caa05c25ca8e08",
     name: "LostRNF96",
-    description: "Classic reissue of the original fish surfboard",
+    description: "The Lost RNF96 is a classic reissue of the original fish surfboard, designed for a fun, loose ride. Its retro-inspired shape offers a unique feel, with enhanced speed and control in smaller waves. With its wide outline and extra volume, it provides excellent stability while still being capable of sharp turns and fast maneuvers, making it a great choice for intermediate surfers looking for something playful yet performance-driven.",
     price: 760,
     stock: 8,
     category: "fish",
@@ -288,7 +288,7 @@ export const products = [
   {
     _id: "67e5a15806caa05c25ca8e0a",
     name: "T&CSurfDesigns",
-    description: "Hawaiian-style longboard for traditional surfing",
+    description: "The T&C Surf Designs longboard is a Hawaiian-style board built for traditional surfing. With its smooth lines and classic design, it excels in slow, glassy waves where you can enjoy long rides and graceful turns. Its superior stability and paddling ability make it ideal for both beginner and expert longboarders alike, and its overall performance makes it perfect for those who appreciate the elegance and artistry of traditional longboarding.",
     price: 940,
     stock: 7,
     category: "longboard",
@@ -297,7 +297,7 @@ export const products = [
   {
     _id: "67e5a18406caa05c25ca8e0c",
     name: "ChannelIslandsNeckBeard2",
-    description: "Shortboard with extra width for better stability",
+    description: "The Channel Islands Neck Beard 2 is a shortboard with extra width designed for enhanced stability and control. Whether you're navigating fast sections or carving hard, this board delivers smooth rides and exceptional maneuverability. With a focus on high-performance surfing, the Neck Beard 2 is a great option for intermediate to advanced surfers looking for a versatile and responsive board that can handle different wave conditions.",
     price: 740,
     stock: 9,
     category: "shortboard",
@@ -306,7 +306,7 @@ export const products = [
   {
     _id: "67e5a1a206caa05c25ca8e0e",
     name: "LibTechPuddleJumper",
-    description: "Eco-friendly surfboard designed for small waves",
+    description: "The LibTech Puddle Jumper is an eco-friendly hybrid surfboard designed specifically for small waves. It combines advanced construction with a lightweight and durable design, ensuring excellent paddling and stability in weaker surf. Its fun and playful shape makes it perfect for riders who want to maximize their performance in small to medium surf, while its environmental credentials make it a standout choice for eco-conscious surfers.",
     price: 700,
     stock: 12,
     category: "hybrid",
