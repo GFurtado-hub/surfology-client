@@ -8,32 +8,35 @@ const LatestArrivals = () => {
     const [latestProducts, setLatestProducts] = useState([]);
 
     useEffect(() => {
-     setLatestProducts(products.slice(0,10));
-    },[products])
-
-    
+        setLatestProducts(products.slice(0,10));
+    }, [products]);
 
     return (
-        <div className='my-10'>
+        <div className='my-10 bg-[#81968F] p-10'> 
             <div className='text-center py-8 text-3xl'>
                 <Title text1={'LATEST'} text2={'ARRIVALS'} />
                 <p className='w-3/4 m-auto text-xs text-gray-600'>
-                Discover the Newest Trends in Style and Performance.
+                    Discover the Newest Trends in Style and Performance.
                 </p>
             </div>
 
             <div className='grid lg:grid-cols-5 gap-4'>
-                {
-                    latestProducts.map((item,index) => (
-                <ProductItem key={index} id={item._id} image={item.image} name={item.name} price={item.price} />
-                ))
-                }
+                {latestProducts.map((item, index) => (
+                    <div key={index} className="rounded-lg shadow-lg overflow-hidden">
+    <ProductItem
+        id={item._id}
+        image={item.image}
+        name={item.name}
+        price={item.price}
+    />
+</div>
+                ))}
             </div>
-            
         </div>
-    )
+    );
 };
 
 export default LatestArrivals;
+
 
    

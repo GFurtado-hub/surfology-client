@@ -13,9 +13,9 @@ import Pukas from './Pukas-Highline.jpg';
 import QuicksilverCarver from './Quiksilver Carver.jpg';
 import RustyBird from './Rusty Blackbird.jpg';
 import TakayamaPink from './Takayama In the Pink.jpg';
-import SearchIcon from './Search-icon.jpg';
-import ProfileIcon from './Profile-icon.jpg';
-import CartIcon from './Cart-icon.jpg';
+import SearchIcon from './Search-icon (1).png';
+import ProfileIcon from './Profile-icon (1).png';
+import CartIcon from './Cart-icon (1).png';
 import HeroImage from './Hero-image.jpg';
 import AlbumTwinsman from './Album-Twinsman.jpg';
 import JSMonstaBox from './js-monstabox.jpg';
@@ -30,9 +30,9 @@ import LostRNF96 from './LostRNF96.jpg';
 import TCsurfDesigns from './T&CSurfDesigns.jpg';
 import ChannelIslandsNeckBeard2 from './ChannelIslandsNeckBeard2.jpg';
 import LibTechPuddleJumper from './LibTechPuddleJumper.jpg';
-import CrossIcon from './cross-icon.jpg';
-import BinIcon from './bin-logo.jpg';
-
+import CrossIcon from './Cross-icon.png';
+import BinIcon from './Bin-icon.png';
+import MenuIcon from './Menu-icon.png';
 
 export const assets = {
     AlMerrick,
@@ -68,7 +68,8 @@ export const assets = {
     ChannelIslandsNeckBeard2,
     LibTechPuddleJumper,
     CrossIcon,
-    BinIcon
+    BinIcon,
+    MenuIcon
      
   };
 
