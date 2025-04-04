@@ -7,7 +7,7 @@ const ProductItem = ({ id, image, name, price }) => {
 
     return (
         <Link to={`/surfboards/${id}`}>
-            <div className="border p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110 duration-300">
+            <div className="bg-white border p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110 duration-300">
                 <img 
                     className="w-full h-64 object-cover rounded-lg" 
                     src={image[0]} 
