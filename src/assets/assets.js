@@ -30,6 +30,9 @@ import LostRNF96 from './LostRNF96.jpg';
 import TCsurfDesigns from './T&CSurfDesigns.jpg';
 import ChannelIslandsNeckBeard2 from './ChannelIslandsNeckBeard2.jpg';
 import LibTechPuddleJumper from './LibTechPuddleJumper.jpg';
+import AboutUs_jpg from './AboutUs.jpg';
+import CrossIcon from './Cross-icon.jpg';
+import Warranty from './warranty.png';
 
 
 export const assets = {
@@ -64,7 +67,10 @@ export const assets = {
     LostRNF96,
     TCsurfDesigns,
     ChannelIslandsNeckBeard2,
-    LibTechPuddleJumper
+    LibTechPuddleJumper,
+    AboutUs_jpg,
+    CrossIcon,
+    Warranty
   };
 
   

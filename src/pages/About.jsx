@@ -1,60 +1,67 @@
 import React from 'react';
+import Title from '../components/title';
+import { assets } from '../assets/assets';
 
 const About = () => {
   return (
+    <div>
 
+    <div className='text-2xl text-center pt-8 border-t'>
+    <Title text1={'ABOUT'} text2={'US'} />
 
-    
-
-    
-    <div className="max-w-5xl mx-auto p-6 bg-gray-900 text-white rounded-lg shadow-lg">
-
-    
-      <h2 className="text-3xl font-bold text-center mb-6">Meet Us</h2>
-
-      <p className="text-center text-gray-400 mb-4">
-      Welcome to Surfology! This project is a collaborative effort by a group of passionate IronHack students. 
-      We are excited to share our journey and the skills we've acquired during our time at IronHack. 
-      Our goal was to create a platform where clients can create an account, search, filter, buy surfboards and check updated weather conditions/sea levels. 
-      Thank you for being part of our adventure!
-    </p>
-      
-      <div className="flex flex-wrap justify-center gap-6">
-        {/* Team Member 1 */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-md text-center w-72 transform transition duration-300 hover:scale-105">
-          <div className="w-36 h-36 mx-auto rounded-full overflow-hidden mb-4">
-          <img 
-  src="https://media.licdn.com/dms/image/C4D03AQHXRgV0m-J_tw/profile-displayphoto-shrink_800_800/0/1658324825184"
-  alt="Francesco Torchia" 
-  className="w-full h-full object-cover"
-/>
-          </div>
-          <h3 className="text-xl font-semibold">Francesco Torchia</h3>
-          <p className="italic text-gray-400">IronHack Student</p>
-          <div className="flex justify-center gap-4 mt-4">
-            <a href="https://github.com/FraT97" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">GitHub</a>
-            <a href="https://www.linkedin.com/in/francesco-torchia-wd" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">LinkedIn</a>
-          </div>
-        </div>
-
-        {/* Team Member 2 */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-md text-center w-72 transform transition duration-300 hover:scale-105">
-          <div className="w-36 h-36 mx-auto rounded-full overflow-hidden mb-4">
-            <img 
-              src="https://media.licdn.com/dms/image/v2/D4E03AQGg0LJqn_Bgbw/profile-displayphoto-shrink_800_800/B4EZON2aPFGQAc-/0/1733251671490?e=1744243200&v=beta&t=m-_Zba50cY1JurMUWU0Renoj1fKdiPnhKHUXcDq2CXs"
-              alt="Gonçalo Furtado" 
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <h3 className="text-xl font-semibold">Gonçalo Furtado</h3>
-          <p className="italic text-gray-400">IronHack Student</p>
-          <div className="flex justify-center gap-4 mt-4">
-            <a href="https://github.com/GFurtado-hub" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">GitHub</a>
-            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">LinkedIn</a>
-          </div>
-        </div>
-      </div>
     </div>
+
+    <div className='my-10 flex flex-col md:flex-row gap-16'>
+<img className='w-full md:max-w-[500px]' src={assets.AboutUs_jpg} alt="About Us" />
+<div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
+<p> Welcome to Surfology! This project is a collaborative effort by a group of passionate IronHack students. </p>
+     <p> We are excited to share our journey and the skills we've acquired during our time at IronHack. </p>
+      
+      
+      <p></p>
+      <b className='text-gray-800'> Our Mission </b>
+      <p>Our goal was to create a platform where clients can create an account, search, filter, buy surfboards and check updated weather conditions/sea levels.
+      Thank you for being part of our adventure! </p>
+
+
+</div>
+
+
+
+
+    </div>
+
+    <div className =' text-xl py-4'>
+    <Title text1={'WHY'} text2={'CHOOSE US'}/> 
+    </div>
+
+    <div className=' flex flex-col md:flex-row text-sm mb-20'>
+    <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+    <b>Quality Assurance:</b>
+    <p className='text-gray-600'>We've chosen and tested each product  to ensure it meets our stringent quality standarts.</p>
+    </div>
+    <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+    <b>Convinience:</b>
+    <p className='text-gray-600'>With our user-friendly interface and hassle-free ordering process, shopping has never been easier.</p>
+    </div>
+    <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
+    <b>Amazing Costumer Service:</b>
+    <p className='text-gray-600'>Our team of dedicated professionals is here to assist you the way, ensuring your satisfaction is our top priority.</p>
+    </div>
+
+
+    </div>
+
+
+    
+
+
+    </div>
+
+    
+
+    
+   
     
   );
 };
