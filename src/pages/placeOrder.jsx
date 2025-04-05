@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../components/Title'
+//import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 
 
@@ -11,7 +11,7 @@ return (
       <div className='flex flex-col gap-4 w-full sm:max-w-[480px]'>'
 
 <div className='text-xl sm:text-2xl my-3'>
-<Title text1={'DELIVERY'} text2={'INFORMATION'} />
+
 </div>
 <div className='flex gap-3'>
 <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' type="text" placeholder='First name' />
@@ -42,7 +42,7 @@ return (
 </div>
 
 <div classNAme='mt-16'>
-<Title text1={'PAYMENT'} text2={'METHOD'} />
+
 {/* Payment method options */}
 <div className='flex gap-3 flex-col lg:flex-row'>
 <div className='flex items.center gap-3 border p-2 px-3 cursor-pointer'>
