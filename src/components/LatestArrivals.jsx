@@ -12,7 +12,7 @@ const LatestArrivals = () => {
     }, [products]);
 
     return (
-        <div className='my-10 bg-[#81968F] p-10'> 
+        <div className='my-10 bg-[#E7F9A9] p-10'> 
             <div className='text-center py-8 text-3xl'>
                 <Title text1={'LATEST'} text2={'ARRIVALS'} />
                 <p className='w-3/4 m-auto text-xs text-gray-600'>

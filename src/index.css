@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Prata&display=swap');
 @import url('https://coolors.co/002626-b6465f-cea07e-edd9a3-6e8898');
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 a.active hr {
     display: block;
@@ -24,6 +27,8 @@ a.active hr {
   }
   
 body {
-  background-color: #81968f;
+  background-color: #E7F9A9
 }
  
+
+/*#E7F9A9-mindaro*/

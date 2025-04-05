@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Order from "./pages/Order";
 import Navbar from './components/Navbar';
 import Searchbar from './components/Searchbar';
+import Contact from './pages/Contact';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
          <Route path="/weather-API" element={<WeatherApi />} />
          <Route path="/login" element={<Login />} />
          <Route path="/order" element={<Order />} />
+         <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
   )
