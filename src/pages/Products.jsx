@@ -13,24 +13,24 @@ const Products = () => {
     const foundProduct = products.find(item => item._id === productId);
     if (foundProduct) {
       setProductData(foundProduct);
-      // Check if 'foundProduct.image' exists and has at least one element
-      if (Array.isArray(foundProduct.image) && foundProduct.image.length > 0) {
-        setImage(foundProduct.image[0]);
+      
+      if (Array.isArray(foundProduct.images) && foundProduct.images.length > 0) {
+        setImage(foundProduct.images[0]);
       } else {
-        setImage('default-image-path.jpg'); // Fallback to default image if no image is available
+        setImage('default-image-path.jpg'); 
       }
-      setLoading(false); // Set loading to false when data is fetched
+      setLoading(false); 
     } else {
-      setLoading(false); // No product found, stop loading
+      setLoading(false); 
     }
   }, [productId, products]);
 
   if (loading) {
-    return <div>Loading...</div>; // Display loading text while fetching product data
+    return <div>Loading...</div>; 
   }
 
   if (!productData) {
-    return <div>Product not found.</div>; // Display if no product is found for the given productId
+    return <div>Product not found.</div>; 
   }
 
   return (
@@ -40,7 +40,7 @@ const Products = () => {
         {/* Main Image Section */}
         <div className="flex-1">
           <img
-            src={image} // Fallback image is already handled above
+            src={image} 
             alt={productData.name}
             className="w-full h-96 object-contain"
           />
@@ -51,7 +51,7 @@ const Products = () => {
           <h1 className="font-medium text-2xl mt-2">{productData.name}</h1>
           <p className="mt-5">{productData.description}</p>
           <div>
-            {/* Pass `productData` correctly */}
+           
             <button 
               onClick={() => addToCart(productData._id, productData)}  
               className="bg-black text-white mt-5 px-8 py-3 text-sm active:bg-gray-700">

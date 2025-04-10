@@ -25,7 +25,7 @@ const LatestArrivals = () => {
                     <div key={index} className="rounded-lg shadow-lg overflow-hidden">
     <ProductItem
         id={item._id}
-        image={item.image}
+        image={item.images}
         name={item.name}
         price={item.price}
     />

@@ -37,10 +37,6 @@ const Navbar = () => {
                 <p>CONTACT</p>
                 <hr className= "w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
                </NavLink>
-               <NavLink to="/weatherAPI" className= "flex flex-col items-center gap-1">
-                <p>WEATHERAPI</p>
-                <hr className= "w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
-               </NavLink>
             </ul>
 
             <div className='flex items-center gap-6'>
@@ -77,7 +73,7 @@ const Navbar = () => {
                  <NavLink className='flex flex-col' to='/surfboards' >SURFBOARDS</NavLink>
                  <NavLink className='flex flex-col' to='/about' >ABOUT</NavLink>
                  <NavLink className='flex flex-col' to='/contact'>CONTACT</NavLink>
-                 <NavLink className='flex flex-col' to='/weatherAPI' >WEATHERAPI</NavLink>
+                 
                  
                 </div>
                     

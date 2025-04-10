@@ -48,7 +48,7 @@ const Cart = () => {
                     </div>
                   </>
                 )}
-                {/* Handle case if the product data is missing or image is empty */}
+               
                 {(!productData || !productData.image || productData.image.length === 0) && (
                   <div className="text-sm text-gray-500">Image not available</div>
                 )}

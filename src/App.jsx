@@ -6,7 +6,6 @@ import Surfboards from "./pages/Surfboards";
 import Products from "./pages/Products";
 import PlaceOrder from './pages/placeOrder';
 import Cart from "./pages/Cart";
-import WeatherApi from "./pages/WeatherAPI";
 import Login from "./pages/Login";
 import Order from "./pages/Order";
 import Navbar from './components/Navbar';
@@ -29,7 +28,6 @@ const App = () => {
          <Route path="/surfboards/:productId" element={<Products />} />
          <Route path="/place-order" element={<PlaceOrder />} />
          <Route path="/Cart" element={<Cart />} />
-         <Route path="/weather-API" element={<WeatherApi />} />
          <Route path="/login" element={<Login />} />
          <Route path="/order" element={<Order />} />
          <Route path='/contact' element={<Contact />} />
