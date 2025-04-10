@@ -5,11 +5,22 @@ import { assets } from '../assets/assets';
 import CartTotal from '../components/CartTotal';
 
 const Cart = () => {
-  const { products, currency, cartItems, updateQuantity, navigate } = useContext(ShopContext);
+  const { products, currency, cartItems, updateQuantity, navigate, setCartItems } = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
 
   useEffect(() => {
+    
+    const savedCart = JSON.parse(localStorage.getItem('cartItems'));
+    if (savedCart) {
+      setCartItems(savedCart);  
+    }
+  }, [setCartItems]);
+
+  useEffect(() => {
     const tempData = [];
+
+    
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
 
     for (const itemId in cartItems) {
       if (cartItems[itemId].quantity > 0) {
@@ -21,7 +32,7 @@ const Cart = () => {
     }
 
     setCartData(tempData);
-  }, [cartItems]);
+  }, [cartItems, setCartItems]);
 
   return (
     <div className='border-t pt-14'>
@@ -58,6 +69,7 @@ const Cart = () => {
                 type='number'
                 min={1}
                 defaultValue={item.quantity}
+                onChange={(e) => updateQuantity(item._id, e.target.value)} 
               />
               <img 
                 onClick={() => updateQuantity(item._id, 0)} 
@@ -87,3 +99,4 @@ const Cart = () => {
 };
 
 export default Cart;
+

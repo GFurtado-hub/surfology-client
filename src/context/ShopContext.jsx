@@ -16,19 +16,29 @@ const ShopContextProvider = (props) => {
 
   const navigate = useNavigate();
 
+  
   useEffect(() => {
     const storedToken = localStorage.getItem('authToken');
     if (storedToken) setToken(storedToken);
   }, []);
 
+  
   useEffect(() => {
-    if (token) {
-      localStorage.setItem('authToken', token);
-    } else {
-      localStorage.removeItem('authToken');
+    
+    const savedCart = JSON.parse(localStorage.getItem('cartItems'));
+    if (savedCart) {
+      setCartItems(savedCart);
     }
-  }, [token]);
+  }, []);
 
+  
+  useEffect(() => {
+    if (Object.keys(cartItems).length > 0) {
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    }
+  }, [cartItems]);
+
+  
   const addToCart = async (itemId, productData) => {
     const cartData = structuredClone(cartItems);
     if (cartData[itemId]) {
@@ -111,6 +121,7 @@ const ShopContextProvider = (props) => {
     }
   };
 
+  
   useEffect(() => {
     getProductsData();
   }, []);
@@ -142,5 +153,6 @@ const ShopContextProvider = (props) => {
 };
 
 export default ShopContextProvider;
+
 
 

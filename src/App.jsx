@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Searchbar from './components/Searchbar';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Orders from './pages/Orders';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
          <Route path="/Cart" element={<Cart />} />
          <Route path="/login" element={<Login />} />
          <Route path="/order" element={<Order />} />
+         <Route path='/orders' element={<Orders />} />
          <Route path='/contact' element={<Contact />} />
       </Routes>
 
