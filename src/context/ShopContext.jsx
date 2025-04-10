@@ -5,7 +5,6 @@ import axios from "axios";
 export const ShopContext = createContext(); 
 
 const ShopContextProvider = (props) => {
-
     const currency = '€';
     const backEndUrl = import.meta.env.VITE_API_URL;
     const [search, setSearch] = useState('');
@@ -14,6 +13,23 @@ const ShopContextProvider = (props) => {
     const [products, setProducts] = useState([]);
     const [token, setToken] = useState('');
     const navigate = useNavigate();
+
+    
+    useEffect(() => {
+        const storedToken = localStorage.getItem('authToken');
+        if (storedToken) {
+            setToken(storedToken); 
+        }
+    }, []);
+
+    
+    useEffect(() => {
+        if (token) {
+            localStorage.setItem('authToken', token); 
+        } else {
+            localStorage.removeItem('authToken'); 
+        }
+    }, [token]);
 
     const addToCart = async (itemId, productData) => {
         let cartData = structuredClone(cartItems);
@@ -50,7 +66,6 @@ const ShopContextProvider = (props) => {
     };
 
     const updateQuantity = (itemId, quantity) => {
-
         let cartData = structuredClone(cartItems);
         cartData[itemId].quantity = quantity;
         setCartItems(cartData);
@@ -73,7 +88,6 @@ const ShopContextProvider = (props) => {
         return totalAmount;
     }
 
-
     const getProductsData = async () => {
         try {
             const response = await axios.get(backEndUrl + '/api/surfboards')
@@ -90,10 +104,7 @@ const ShopContextProvider = (props) => {
 
     useEffect(() => {
         getProductsData();
-    }, []);
-
-
-    
+    }, []);  
 
     const value = { 
         products, 
@@ -114,7 +125,7 @@ const ShopContextProvider = (props) => {
     };
 
     useEffect(() => {
-        console.log(cartItems);
+        console.log(cartItems);  
     }, [cartItems]);
 
     return (
@@ -125,3 +136,4 @@ const ShopContextProvider = (props) => {
 };
 
 export default ShopContextProvider;
+
