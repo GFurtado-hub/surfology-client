@@ -39,9 +39,9 @@ const Cart = () => {
               className='py-4 border-t border-b text-gray-700 grid grid-cols-[4fr_0.5fr_0.5fr] sm:grid-cols-[4fr_2fr_0.5fr] items-center gap-4'
             >
               <div className='flex items-start gap-6'>
-                {productData && productData.image && productData.image.length > 0 && ( 
+                {productData && productData.images && productData.images.length > 0 && ( 
                   <>
-                    <img className='w-16 sm:w-20' src={productData.image[0]} alt={productData.name} />
+                    <img className='w-16 sm:w-20' src={productData.images[0]} alt={productData.name} />
                     <div>
                       <p className='text-xs sm:text-lg font-medium'>{productData.name}</p>
                       <p className='text-xs sm:text-lg'>{currency}{productData.price}</p>
