@@ -83,7 +83,8 @@ const ShopContextProvider = (props) => {
 
   const getProductsData = async () => {
     try {
-      const response = await axios.get('${backEndUrl}/api/surfboards');
+      const response = await axios.get(`${backEndUrl}/api/surfboards`);
+
       if (response.data.success) {
         setProducts(response.data.products);
       } else {
@@ -96,7 +97,7 @@ const ShopContextProvider = (props) => {
 
   const placeOrder = async (orderDetails) => {
     try {
-      const response = await axios.post('${backEndUrl}/api/orders', orderDetails, {
+      const response = await axios.post(`${backEndUrl}/api/orders`, orderDetails, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',
