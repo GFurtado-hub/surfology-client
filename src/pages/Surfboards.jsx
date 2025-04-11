@@ -51,32 +51,32 @@ const Surfboards = () => {
       
       <div className="flex gap-10">
         
-        <div className="w-1/4 border-r border-gray-300 pr-5">
-          <p className="font-semibold mb-4">FILTERS</p>
-          <div className="mb-6">
-            <p className="text-sm font-medium mb-2">CATEGORIES</p>
-            <div className="flex flex-col gap-2 text-sm text-gray-700">
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="longboard" onChange={toggleCategory} /> Longboards
-              </label>
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="shortboard" onChange={toggleCategory} /> Shortboards
-              </label>
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="fish" onChange={toggleCategory} /> Fish
-              </label>
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="hybrid" onChange={toggleCategory} /> Hybrid
-              </label>
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="funboard" onChange={toggleCategory} /> Funboards
-              </label>
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="w-4 h-4" value="gun" onChange={toggleCategory} /> Gun
-              </label>
-            </div>
-          </div>
-        </div>
+      <div className="w-1/4 border-r border-gray-300 pr-5">
+  <p className="font-semibold mb-4 text-lg">FILTERS</p> {/* Increased text size */}
+  <div className="mb-6">
+    <p className="text-base font-semibold mb-2">CATEGORIES</p> {/* Increased text size */}
+    <div className="flex flex-col gap-3 text-base text-gray-700"> {/* Increased text size and spacing */}
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="longboard" onChange={toggleCategory} /> Longboards
+      </label>
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="shortboard" onChange={toggleCategory} /> Shortboards
+      </label>
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="fish" onChange={toggleCategory} /> Fish
+      </label>
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="hybrid" onChange={toggleCategory} /> Hybrid
+      </label>
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="funboard" onChange={toggleCategory} /> Funboards
+      </label>
+      <label className="flex items-center gap-3">
+        <input type="checkbox" className="w-5 h-5" value="gun" onChange={toggleCategory} /> Gun
+      </label>
+    </div>
+  </div>
+</div>
 
         
         <div className="flex-1">

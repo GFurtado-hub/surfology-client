@@ -9,6 +9,7 @@ import BinIcon from './Bin-icon.png';
 import MenuIcon from './Menu-icon.png';
 import CashIcon from './Cash-icon.jpg';
 import AboutUs from './AboutUs.jpg';
+import FooterLogo from './footerlogo.jpg';
 
 
 export const assets = {
@@ -21,7 +22,8 @@ export const assets = {
     BinIcon,
     MenuIcon,
     CashIcon,
-    AboutUs
+    AboutUs,
+    FooterLogo,
      
   };
 

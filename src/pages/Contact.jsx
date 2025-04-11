@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="bg p-6 rounded-lg shadow-md text-center w-72 transform transition duration-300 hover:scale-105">
             <div className="w-36 h-36 mx-auto rounded-full overflow-hidden mb-4">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGg0LJqn_Bgbw/profile-displayphoto-shrink_800_800/B4EZON2aPFGQAc-/0/1733251671490?e=1744243200&v=beta&t=m-_Zba50cY1JurMUWU0Renoj1fKdiPnhKHUXcDq2CXs"
+                src="https://avatars.githubusercontent.com/u/183815607?v=4"
                 alt="Gonçalo Furtado"
                 className="w-full h-full object-cover"
               />
