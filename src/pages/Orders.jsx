@@ -29,7 +29,7 @@ const Orders = () => {
 
     const fetchOrders = async () => {
       try {
-        const response = await axios.get(`${backEndUrl}/orders/user/${userId}`, {
+        const response = await axios.get(`${backEndUrl}/api/orders/user/${userId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

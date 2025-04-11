@@ -36,7 +36,7 @@ const PlaceOrder = () => {
     );
   
     const orderData = {
-      product: productList,
+      products: productList,
       shippingAddress: {
         street: formData.street,
         city: formData.city,
