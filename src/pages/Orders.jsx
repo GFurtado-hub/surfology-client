@@ -19,10 +19,8 @@ const Orders = () => {
     let userId;
 
     try {
-        const decoded = jwtDecode(token);
-
-        userId = decoded._id;
- 
+      const decoded = jwtDecode(token);
+      userId = decoded._id;
     } catch (err) {
       console.error('Error decoding token:', err);
       setError('Invalid token');
@@ -33,8 +31,8 @@ const Orders = () => {
       try {
         const response = await axios.get(`${backEndUrl}/orders/user/${userId}`, {
           headers: {
-            Authorization: `Bearer ${token}`
-          }
+            Authorization: `Bearer ${token}`,
+          },
         });
 
         setOrders(response.data);
@@ -63,11 +61,13 @@ const Orders = () => {
             <p className="font-semibold text-lg">Order ID: {order._id}</p>
             <p className="text-sm text-gray-500 mb-2">Date: {new Date(order.createdAt).toLocaleString()}</p>
             <ul className="list-disc list-inside">
-              {order.items.map((item, i) => (
-                <li key={i}>{item.name} × {item.quantity}</li>
+              {order.products.map((item, i) => (
+                <li key={i}>
+                  {item.product?.name || 'Unknown Product'} × {item.quantity}
+                </li>
               ))}
             </ul>
-            <p className="mt-2 font-medium">Total: ${order.total}</p>
+            <p className="mt-2 font-medium">Total: €{order.totalAmount}</p>
           </div>
         ))
       )}
@@ -76,4 +76,5 @@ const Orders = () => {
 };
 
 export default Orders;
+
 
